@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 4 HTML Assignment</title>
+</head>
+<body>
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+<!-- Navigation as requested -->
+</head>
+<body>
+  <nav>
+    <ul>
+			    <li><a href="index.html">Home</a></li>
+			    <li><a href="about.html">About</a></li>
+			    <li><a href="#services">Services</a></li>
+			    <li><a href="#contact">Contact</a></li>
+			    <li><a href="about.html#team">Our Team</a></li>
+			    <li><a href="about.html#mission">Our Mission</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Our Home Page</h2>
+    <p> Welcome to my Module 4 Homework assignment! Here's hoping I get an A+!</p>
+  </section>
+
+  <section id="about">
+    <h2>About C</h2>
+    <p>Courtney is a new developer learning how to work both front end and back end development. She is an avid learner, and hopes that her potential will grant her many successes.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>I am providing the service of learning front end development. If you'd like to hire me, let me know!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch with us via email or phone.</p>
+  </section>
+
+  <section id="about.html#team">
+    <h2>Our Team</h2>
+    <p> Our team consists of C, and her three cats : Pickle, N00b, and Myrrh Durkat.</p>
+    <p> <img src= "https://placehold.co/300x200" alt="img holder" width="300" height="200"></p>
+    <p> <img src= "https://i.pinimg.com/564x/4f/f3/ae/4ff3aed3db6486606de366044e70ddc1.jpg" alt="Cats"  border= "1 solid #ddd" border-radius= "4" padding= "5px" width= "150"></p>
+  </section>
+<section>
+  <form action="#" method="POST">
+  <fieldset>
+    <legend>Personal Information</legend>
+<!-- Contact information fields go here -->
+  <div>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  </div>
+  <div>
+  <label for="user-email">Email</label>
+<input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+  </div>  
+<div>
+<label for="country">Country:</label>
+<select id="country" name="country" required>
+  <option value="usa">United States</option>
+  <option value="canada">Canada</option>
+  <option value="uk">United Kingdom</option>
+</select>
+</div>
+<div>
+  <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male" style="margin-right: 20px;">Male</label>
+  
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+  </div>
+  <div>
+  <label for="birthdate">Birthdate</label>
+<input type="date" id="birthdate" name="birthdate" required>
+</div> 
+</fieldset>
+<section>
+  <p>Hobbies:</p>
+<div>
+      <input type="checkbox" id="reading" name="hobbies" value="reading">
+      <label for="reading">Reading</label>
+
+      <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+      <label for="gaming">Gaming</label>
+
+      <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+      <label for="gaming">Traveling</label>
+
+      <input type="checkbox" id="camping" name="hobbies" value="camping">
+      <label for="gaming">Camping</label>
+
+      <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+      <label for="gaming">Dancing</label>
+</div>
+</section>
+<section>
+<div>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+</div>
+<div>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required placeholder="Write your message"></textarea>
+</div>
+</section>
+<fieldset>
+<section>
+  <p>Preferred Contact Method:</p>
+  <div>
+    <input type="checkbox" id="email" name="contact_method" value="email">
+    <label for="email">Email</label>
+
+    <input type="checkbox" id="phone" name="contact_method" value="phone">
+    <label for="phone">Phone</label>
+
+    <input type="checkbox" id="text" name="contact_method" value="text">
+    <label for="text">Text</label>
+  </div>
+<input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</fieldset>
+</form>
+<fieldset>
+  <legend>How did you find us?</legend>
+  <label>
+    <input type="radio" name="found_site" value="google">
+    Google
+  </label>
+  <label>
+    <input type="radio" name="found_site" value="social_media">
+    Social Media
+  </label>
+  <label>
+    <input type="radio" name="found_site" value="advertisement">
+    Advertisement
+  </label>
+  <label>
+    <input type="radio" name="found_site" value="referral">
+    Referral
+  </label>
+  <label>
+    <input type="radio" name="found_site" value="other">
+    Other
+  </label>
+</fieldset>
+  <p></p>
+</section>
+<fieldset>
+    <center>
+<head>
+ <h2> Table section</h2>
+</head>
+<!-- This is the table, as requested in the homework -->
+<p>  
+  <table border="2" cellpadding="5" cellspacing="0">
+    <caption>Celeste's Boutique</caption>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Cost</th>
+      <th>Quantity</th>
+    </tr>
+    <tr>
+     <td>Blue Dress</td>
+     <td>A Blue Dress, made of chiffon</td>
+     <td>$300</td>
+     <td>4</td>
+    </tr>
+    <tr>
+      <td>Scarlet Robe</td>
+      <td>Silk, bright scarlet, dressing robe from the 1920s</td>
+      <td>$80</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Emerald Scarf</td>
+      <td>Knitted emerald scarf, with appliques</td>
+      <td>$50</td>
+      <td>6</td>
+    </tr>
+  </table>
+</center></fieldset>
+</p>
+</body>
+</html>
